@@ -12,7 +12,7 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
     "claude-mcp": {
       "source": {
         "source": "github",
-        "repo": "claude-contrib/claude-services"
+        "repo": "claude-contrib/extra-services"
       }
     }
   }
@@ -22,7 +22,7 @@ Add the marketplace to your Claude Code settings (`~/.claude/settings.json`):
 Then install plugins:
 
 ```text
-/plugin install <plugin-name>@claude-services
+/plugin install <plugin-name>@extra-services
 ```
 
 ## Available Plugins
